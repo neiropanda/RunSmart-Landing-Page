@@ -1,2 +1,19 @@
 @import "base/variables";
 @import "base/mixins";
+@import "sections/promo";
+@import "sections/header";
+@import "sections/buttons";
+@import "sections/advantage";
+@import "sections/titles";
+@import "sections/consultation";
+@import "sections/forms";
+@import "media";
+
+* {
+  font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
