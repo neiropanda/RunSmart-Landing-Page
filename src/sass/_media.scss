@@ -1,3 +1,75 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+  .header {
+    justify-content: space-around;
+  }
+  .promo {
+    &__wrapper {
+      margin-top: 50px;
+      align-items: center;
+    }
+  }
+  .advantage {
+    &__icons {
+      padding: 20px 0 0 0;
+    }
+    &__icon {
+      width: 250px;
+      padding: 0 8px;
+    }
+  }
+  .consultation {
+    .title_left {
+      font-size: 30px;
+      padding-left: 20px;
+    }
+    &__descr {
+      padding-left: 20px;
+    }
+    .feed-form {
+      margin-left: 20px;
+    }
+    .button_submit {
+      height: 40px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .promo {
+    &__subheader {
+      width: 100%;
+    }
+  }
+  .advantage {
+    &__icons {
+      padding: 40px 0 40px 0;
+    }
+    &__icon {
+      width: 100%;
+      padding: 0 10px 0 10px;
+    }
+  }
+  .title {
+    font-size: 24px;
+  }
+  .consultation {
+    .title_left {
+      font-size: 30px;
+      padding-left: 20px;
+    }
+    &__descr {
+      padding-left: 20px;
+    }
+    .button_submit {
+      height: 40px;
+    }
+  }
+}
+
 @media (max-width: 575px) {
   .header {
     display: flex;
@@ -72,10 +144,11 @@
       font-size: 14px;
       text-align: center;
     }
+    .feed-form {
+      margin: 0 auto;
+      margin-top: 30px;
+    }
   }
-  .feed-form {
-    margin: 0 auto;
-    margin-top: 30px;
-  }
+
 
 }

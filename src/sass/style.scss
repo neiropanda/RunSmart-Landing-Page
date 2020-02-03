@@ -8,12 +8,15 @@
 @import "sections/consultation";
 @import "sections/forms";
 @import "media";
+@import "sections/carousel";
+@import "sections/catalog";
 
 * {
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
 .container {
+  position: relative;
   max-width: 950px;
   margin: 0 auto;
 }
