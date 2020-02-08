@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
   }
-  &__icon {
+  &__item {
     width: 300px;
     img {
       display: block;
@@ -33,6 +33,17 @@
     a {
       text-decoration: underline;
       color: $main-color;
+    }
+  }
+  &__icon {
+    &_animated {
+      animation-name: heartbeat;
+      animation-duration: 1s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+       &:hover {
+         animation-play-state: paused;
+       }
     }
   }
 }
