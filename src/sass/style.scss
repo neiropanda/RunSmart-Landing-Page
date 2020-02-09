@@ -1,3 +1,8 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/fonts";
+@import "libs/slick";
+@import "libs/animate";
+
 @import "base/variables";
 @import "base/animations";
 @import "base/mixins";
@@ -9,13 +14,14 @@
 @import "sections/titles";
 @import "sections/consultation";
 @import "sections/forms";
-@import "media";
 @import "sections/carousel";
 @import "sections/catalog";
 @import "sections/feedback";
 @import "sections/footer";
 @import "sections/modals";
 @import "sections/pageup";
+
+@import "media";
 
 
 * {
